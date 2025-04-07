@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Giancarlo Valente | Web Developer & Tech Entrepreneur</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						primary: '#3b82f6',
+						secondary: '#1e40af',
+						dark: '#0f172a',
+					},
+					fontFamily: {
+						sans: ['Inter', 'sans-serif'],
+					},
+				}
+			}
+		}
+	</script>
+</head>
+
+<body class="bg-gray-50 font-sans text-gray-800">
+	<!-- Hero Section -->
+	<header class="bg-gradient-to-r from-primary to-secondary text-white">
+		<div class="container mx-auto px-6 py-16 md:py-24 md:flex md:items-center">
+			<div class="md:w-1/2 md:pr-8">
+				<h1 class="text-4xl md:text-5xl font-bold mb-6">Giancarlo Valente</h1>
+				<h2 class="text-xl md:text-2xl font-light mb-8">Web Developer • Tech Coach • Digital Entrepreneur</h2>
+				<p class="text-lg mb-8 max-w-md">Helping businesses and individuals navigate the digital landscape with
+					expertise and vision.
+
+					(TEST Website Work in progress)
+
+				</p>
+				<div class="flex space-x-4">
+					<a href="#contact"
+						class="bg-white text-primary hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition duration-300">Contact
+						Me</a>
+					<a href="#services"
+						class="border border-white hover:bg-white hover:text-primary px-6 py-3 rounded-lg font-medium transition duration-300">My
+						Services</a>
+				</div>
+			</div>
+			<div class="mt-12 md:mt-0 md:w-1/2 flex justify-center">
+				<div class="h-64 w-64 md:h-80 md:w-80 bg-white rounded-full overflow-hidden shadow-xl">
+					<!-- Replace with your profile photo -->
+					<img src="https://placehold.co/400x400/4B5563/FFFFFF?text=GV" alt="Giancarlo Valente"
+						class="h-full w-full object-cover">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- About Section -->
+	<section id="about" class="py-16 md:py-24">
+		<div class="container mx-auto px-6">
+			<h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Me</h2>
+			<div class="md:flex md:space-x-12 items-center">
+				<div class="md:w-1/2 mb-8 md:mb-0">
+					<h3 class="text-2xl font-semibold mb-4">My Journey</h3>
+					<p class="mb-4">As a passionate web developer and tech entrepreneur, I've dedicated my career to
+						creating impactful digital solutions that drive results. With expertise in modern web
+						technologies and a strategic approach to digital business, I help my clients transform their
+						ideas into reality.</p>
+					<p class="mb-4">My background combines technical expertise with business acumen, allowing me to
+						bridge the gap between technology and business objectives.</p>
+					<div class="flex space-x-4 mt-8">
+						<a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+							class="text-gray-600 hover:text-primary transition-colors">
+							<i class="fab fa-linkedin text-2xl"></i>
+						</a>
+						<a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+							class="text-gray-600 hover:text-primary transition-colors">
+							<i class="fab fa-github text-2xl"></i>
+						</a>
+						<a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
+							class="text-gray-600 hover:text-primary transition-colors">
+							<i class="fab fa-twitter text-2xl"></i>
+						</a>
+					</div>
+				</div>
+				<div class="md:w-1/2">
+					<div class="grid grid-cols-2 gap-6">
+						<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+							<div class="text-primary text-3xl mb-2">
+								<i class="fas fa-code"></i>
+							</div>
+							<h4 class="text-xl font-semibold mb-2">Web Development</h4>
+							<p>Creating modern, responsive websites and web applications.</p>
+						</div>
+						<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+							<div class="text-primary text-3xl mb-2">
+								<i class="fas fa-chalkboard-teacher"></i>
+							</div>
+							<h4 class="text-xl font-semibold mb-2">Tech Coaching</h4>
+							<p>Mentoring and guiding developers and tech teams.</p>
+						</div>
+						<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+							<div class="text-primary text-3xl mb-2">
+								<i class="fas fa-lightbulb"></i>
+							</div>
+							<h4 class="text-xl font-semibold mb-2">Digital Strategy</h4>
+							<p>Developing effective digital strategies for businesses.</p>
+						</div>
+						<div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+							<div class="text-primary text-3xl mb-2">
+								<i class="fas fa-rocket"></i>
+							</div>
+							<h4 class="text-xl font-semibold mb-2">Entrepreneurship</h4>
+							<p>Building and scaling digital products and services.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Services Section -->
+	<section id="services" class="py-16 md:py-24 bg-gray-100">
+		<div class="container mx-auto px-6">
+			<h2 class="text-3xl md:text-4xl font-bold text-center mb-16">My Services</h2>
+			<div class="grid md:grid-cols-3 gap-8">
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="bg-primary h-2"></div>
+					<div class="p-8">
+						<div class="text-primary text-4xl mb-4">
+							<i class="fas fa-laptop-code"></i>
+						</div>
+						<h3 class="text-2xl font-semibold mb-3">Custom Web Development</h3>
+						<p class="mb-4">Expertly crafted websites and web applications built with modern technologies
+							and best practices.</p>
+						<ul class="space-y-2 mb-6">
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Responsive Design</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Modern Frameworks</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Performance Optimization</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="bg-primary h-2"></div>
+					<div class="p-8">
+						<div class="text-primary text-4xl mb-4">
+							<i class="fas fa-users-cog"></i>
+						</div>
+						<h3 class="text-2xl font-semibold mb-3">Technology Consultation</h3>
+						<p class="mb-4">Strategic advice on technology decisions to help your business grow and
+							innovate.</p>
+						<ul class="space-y-2 mb-6">
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Tech Stack Selection</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Digital Transformation</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Process Optimization</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="bg-primary h-2"></div>
+					<div class="p-8">
+						<div class="text-primary text-4xl mb-4">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+						<h3 class="text-2xl font-semibold mb-3">Developer Coaching</h3>
+						<p class="mb-4">Personalized mentoring to help developers and teams reach their full potential.
+						</p>
+						<ul class="space-y-2 mb-6">
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Code Reviews</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Best Practices Training</span>
+							</li>
+							<li class="flex items-center">
+								<i class="fas fa-check text-green-500 mr-2"></i>
+								<span>Career Development</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects/Portfolio Section -->
+	<section id="portfolio" class="py-16 md:py-24">
+		<div class="container mx-auto px-6">
+			<h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Featured Projects</h2>
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<!-- Project 1 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="h-48 bg-gray-300">
+						<img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Project+1" alt="Project 1"
+							class="w-full h-full object-cover">
+					</div>
+					<div class="p-6">
+						<h3 class="text-xl font-semibold mb-2">E-Commerce Platform</h3>
+						<p class="text-gray-600 mb-4">A fully-featured online store built with modern technologies.</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">React</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Node.js</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">MongoDB</span>
+						</div>
+						<a href="#" class="text-primary hover:text-secondary font-medium flex items-center">
+							View Case Study
+							<i class="fas fa-arrow-right ml-2"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Project 2 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="h-48 bg-gray-300">
+						<img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Project+2" alt="Project 2"
+							class="w-full h-full object-cover">
+					</div>
+					<div class="p-6">
+						<h3 class="text-xl font-semibold mb-2">Business Dashboard</h3>
+						<p class="text-gray-600 mb-4">An analytics dashboard for business intelligence and reporting.
+						</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Vue.js</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">PostgreSQL</span>
+						</div>
+						<a href="#" class="text-primary hover:text-secondary font-medium flex items-center">
+							View Case Study
+							<i class="fas fa-arrow-right ml-2"></i>
+						</a>
+					</div>
+				</div>
+
+				<!-- Project 3 -->
+				<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+					<div class="h-48 bg-gray-300">
+						<img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Project+3" alt="Project 3"
+							class="w-full h-full object-cover">
+					</div>
+					<div class="p-6">
+						<h3 class="text-xl font-semibold mb-2">Mobile App</h3>
+						<p class="text-gray-600 mb-4">A cross-platform mobile application for productivity enhancement.
+						</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">React Native</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Firebase</span>
+							<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Redux</span>
+						</div>
+						<a href="#" class="text-primary hover:text-secondary font-medium flex items-center">
+							View Case Study
+							<i class="fas fa-arrow-right ml-2"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials -->
+	<section class="py-16 md:py-24 bg-gray-100">
+		<div class="container mx-auto px-6">
+			<h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Client Testimonials</h2>
+			<div class="grid md:grid-cols-2 gap-8">
+				<div class="bg-white p-8 rounded-xl shadow-md">
+					<div class="text-yellow-400 mb-4 flex">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<p class="italic mb-6">"Giancarlo's expertise in web development transformed our online presence.
+						His strategic approach and technical skills delivered exactly what our business needed."</p>
+					<div class="flex items-center">
+						<div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+							<img src="https://placehold.co/100x100/4B5563/FFFFFF?text=C1" alt="Client"
+								class="w-full h-full object-cover">
+						</div>
+						<div>
+							<h4 class="font-semibold">Marco Rossi</h4>
+							<p class="text-gray-600 text-sm">CEO, TechSolutions Inc.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg-white p-8 rounded-xl shadow-md">
+					<div class="text-yellow-400 mb-4 flex">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+					<p class="italic mb-6">"Working with Giancarlo was a game-changer for our team. His coaching helped
+						our developers level up their skills and deliver better products faster."</p>
+					<div class="flex items-center">
+						<div class="w-12 h-12 bg-gray-300 rounded-full overflow-hidden mr-4">
+							<img src="https://placehold.co/100x100/4B5563/FFFFFF?text=C2" alt="Client"
+								class="w-full h-full object-cover">
+						</div>
+						<div>
+							<h4 class="font-semibold">Sofia Bianchi</h4>
+							<p class="text-gray-600 text-sm">CTO, InnovateTech</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact" class="py-16 md:py-24">
+		<div class="container mx-auto px-6">
+			<h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Get In Touch</h2>
+			<div class="max-w-4xl mx-auto">
+				<div class="bg-white rounded-xl shadow-lg overflow-hidden">
+					<div class="md:flex">
+						<div class="md:w-1/2 bg-primary p-8 text-white">
+							<h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+							<p class="mb-8">I'd love to hear from you. Whether you have a question, a project idea, or
+								just want to say hello, feel free to reach out.</p>
+							<div class="space-y-4">
+								<div class="flex items-start">
+									<div class="text-2xl mr-4">
+										<i class="fas fa-map-marker-alt"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-lg">Location</h4>
+										<address class="not-italic">Bari, Italy</address>
+									</div>
+								</div>
+								<div class="flex items-start">
+									<div class="text-2xl mr-4">
+										<i class="fas fa-envelope"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-lg">Email</h4>
+										<a href="mailto:contact@giancarlovalente.com" class="hover:underline">mio nome .
+											mio cognome su gmail</a>
+									</div>
+								</div>
+								<div class="flex items-start">
+									<div class="text-2xl mr-4">
+										<i class="fas fa-phone"></i>
+									</div>
+									<div>
+										<h4 class="font-semibold text-lg">Phone</h4>
+										<a href="tel:+1234567890" class="hover:underline"> .... TEL </a>
+									</div>
+								</div>
+							</div>
+							<div class="mt-12 flex space-x-4">
+								<a href="#" class="text-white hover:text-gray-200 transition-colors">
+									<i class="fab fa-twitter text-2xl"></i>
+								</a>
+								<a href="#" class="text-white hover:text-gray-200 transition-colors">
+									<i class="fab fa-linkedin text-2xl"></i>
+								</a>
+								<a href="#" class="text-white hover:text-gray-200 transition-colors">
+									<i class="fab fa-github text-2xl"></i>
+								</a>
+							</div>
+						</div>
+						<div class="md:w-1/2 p-8">
+							<form>
+								<div class="mb-6">
+									<label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+									<input type="text" id="name"
+										class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+								</div>
+								<div class="mb-6">
+									<label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+									<input type="email" id="email"
+										class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+								</div>
+								<div class="mb-6">
+									<label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+									<input type="text" id="subject"
+										class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+								</div>
+								<div class="mb-6">
+									<label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+									<textarea id="message" rows="4"
+										class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+								</div>
+								<button type="submit"
+									class="w-full bg-primary hover:bg-secondary text-white font-medium py-3 px-6 rounded-lg transition duration-300">Send
+									Message</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white py-12">
+		<div class="container mx-auto px-6">
+			<div class="flex flex-col md:flex-row justify-between items-center">
+				<div class="mb-6 md:mb-0">
+					<h3 class="text-2xl font-bold">Giancarlo Valente</h3>
+					<p class="text-gray-400">Web Developer & Tech Entrepreneur</p>
+				</div>
+				<div class="flex space-x-8">
+					<a href="#about" class="hover:text-primary transition-colors">About</a>
+					<a href="#services" class="hover:text-primary transition-colors">Services</a>
+					<a href="#portfolio" class="hover:text-primary transition-colors">Portfolio</a>
+					<a href="#contact" class="hover:text-primary transition-colors">Contact</a>
+				</div>
+			</div>
+			<hr class="border-gray-800 my-8">
+			<div class="text-center text-gray-400">
+				<p>&copy; 2025 Giancarlo Valente. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+</body>
+
+</html>
